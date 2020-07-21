@@ -1,0 +1,435 @@
+body{
+  background-image: url('img/background(admission).png');
+}
+header{
+   border: 2px solid black;
+    height:29em;
+        margin:.2em;
+        background-color: rgb(0,0,128,1.0);
+
+}
+
+#logo{
+  height:12em;
+  width:10em;
+  border-radius: 50%;
+  margin-left: 2em;
+  margin-top: 10em;
+  display: inline-block;
+
+}
+#logo img{
+  height:15em;
+  width:10em;
+  border: 2px solid black;
+  border-radius: 50%;
+
+}
+
+.navbar-toggler-icon{
+  height:3em;
+  width:3em;
+}
+.navbar-div{
+  height: 5em;
+  border:1px solid black;
+  line-height: 3em;
+
+
+}
+#secondarynav .nav-tabs{
+  background-color: grey;
+
+}
+#secondarynav .nav-tabs a{
+  color:black;
+}
+.navbar-div h5{
+    font-size: 2em;
+}
+
+#heading1{
+  display: inline-block;
+  width: 1em;
+  height: .15em;
+  margin-top: .25em;
+  font-size: 45em;
+
+  float: right;
+  font-family: serif;
+  text-align: center;
+
+}
+
+#heading1 h1{
+  font-size: 12%;
+  font-weight: bolder;
+  color: #f4d35e;
+  text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+}
+
+#secondarynav{
+  height:3em;
+  font-size: 3em;
+
+}
+
+.nav-tabs .nav-link{
+  border:2px solid transparent;
+}
+
+
+/* Styling of TABLE */
+  table{
+  width:95%;
+  height:800px;
+  line-height: 50px;
+  border:2px solid #FFFFFF;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  font-family: sans-serif;
+  font-size: 210%;
+  font-weight: bold;
+  line-height: normal;
+}
+
+ table tr th{
+  border:1px solid #008000;
+  -webkit-border-radius:5px 5px 0 0;
+  border-radius:5px 5px 0 0;
+  background: linear-gradient(#008000,#9ACD32);
+  border:1px solid #008000;
+  border-bottom:2px;
+  padding:4px 4px;
+  opacity:1;
+}
+
+ table tr td{
+  color:#191970;
+  background-color: #6B8E23;
+  opacity:.9;
+  font-size: 85%;
+  padding:2px;
+  border:1px solid #6B8E23;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  text-shadow: 2px 2px #000000;
+  }
+
+ table tr th:first-child, table tr td:first-child{
+    text-align: left;
+    padding-left: 10px;
+}
+
+ table tr th:not(first-child),table tr td:not(first-child){
+      text-align: center;
+}
+
+ table tr:hover td{
+  opacity:1;
+    text-shadow: 2px 2px 2px #ceed26;
+    font-size: 115%;
+}
+
+/* Styling of form*/
+#form{
+  width: 95%;
+  height:1574px;
+
+  }
+iframe{
+  width: 100%;
+
+
+}
+
+
+
+footer{
+  border: 2px solid black;
+  height: 50em;
+        margin:.2em;
+        margin-top: 10%;
+        background-color: #343a40;
+        color: white;
+}
+#f1,#f2,#f3{
+  width:90%;
+
+    border: 2px solid black;
+
+ margin-left: 1em;
+ margin-top: .5em;
+ margin-bottom: .5em;
+ float: left;
+ font-family: sans-serif;
+ font-weight: bold;
+ font-size: 2em;
+ text-align: center;
+
+}
+footer h3{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+
+
+
+/* MEDIUM SCREEN VIEW
+@media screen and (min-width:780px)
+{
+
+
+    header{
+        border: 2px solid black;
+        height:20em;
+            margin:.2em;
+            background-color: rgb(0,0,128,1.0);
+
+
+
+    }
+
+
+    #logo{
+      height:12em;
+      width:8em;
+      border-radius: 50%;
+      margin-left: 4%;
+      margin-top: 3.5em;
+      display: inline-block;
+      position:absolute;
+      top:0px;
+      left:2%;
+
+    }
+
+    #heading1{
+      display: inline-block;
+      width: 1.3em;
+      height: .19em;
+      margin-top: .19em;
+      font-size: 38em;
+      font-family: serif;
+      text-align: center;
+      margin-right: .02em;
+      margin-left: 17%;
+
+    }
+
+    h3:hover {
+         text-shadow: 2px 2px #FF0000;
+      }
+
+
+
+    #logo img{
+      height:15em;
+      width:10em;
+      border: 2px solid black;
+      border-radius: 50%;
+    }
+
+
+    .fixed-top{
+      width:83.1em;
+      margin-left: .2em;
+      margin-right: 1em;
+    }
+    .navbar-div h5{
+        font-size: 3em;
+    }
+
+    header a{
+      color:white;
+    }
+
+#heading1 h1{
+  font-size: 11%;
+  font-weight: bolder;
+  color:#f4d35e;
+  text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+
+}
+
+
+    footer{
+      border: 2px solid black;
+      height: 50vh;
+            margin:.2em;
+            margin-top: 2%;
+
+           position: absolute;
+           top:100%;
+           background-color: #343a40;
+           color: white;
+
+    }
+
+
+
+    #f1,#f2{
+      width:45%;
+      height: 60%;
+
+        border: 2px solid black;
+
+     margin-left: 1em;
+     margin-top: .5em;
+     margin-bottom: .5em;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 1em;
+     text-align: center;
+     display: inline-block;
+     margin-left: 4%;
+
+    }
+    #f3{
+      width:95%;
+      height:10%;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 1em;
+      text-align: center;
+         margin-left: 4%;
+    }
+    footer h3{
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 2em;
+
+    }
+
+
+}
+*/
+
+/* LARGE SCREEN VIEW*/
+
+@media screen and (min-width:1200px)
+{
+ body{
+   background-image: url('img/background(admission).png');
+ }
+  header{
+      border: 2px solid black;
+      height:20em;
+          margin:.2em;
+          background-color: rgb(0,0,128,1.0);
+
+
+
+  }
+
+  #logo{
+    height:12em;
+    width:8em;
+    border-radius: 50%;
+    margin-left: 4%;
+    margin-top: 3.5em;
+    display: inline-block;
+
+  }
+  #logo img{
+    height:15em;
+    width:10em;
+    border: 2px solid black;
+    border-radius: 50%;
+
+  }
+
+  .fixed-top{
+    width:83.1em;
+    margin-left: .2em;
+    margin-right: 1em;
+  }
+  .navbar-div h5{
+      font-size: 3em;
+  }
+
+  #heading1{
+    display: inline-block;
+    width: 1.3em;
+    height: .15em;
+    margin-top: .15em;
+    font-size: 45em;
+
+
+    font-family: serif;
+    text-align: center;
+    margin-right: .08em;
+
+  }
+
+  #heading1 h1{
+    font-size: 11%;
+    font-weight: bolder;
+    color:#f4d35e;
+    text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+  }
+
+#secondarynav {
+  font-size: 2em;
+margin-bottom: 2%;
+}
+
+table{
+  width:80%;
+  height:auto;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+#form{
+    margin-bottom: 5%;
+}
+
+  footer{
+    border: 2px solid black;
+    height: 50vh;
+          margin:.2em;
+        margin-top: 10%;
+          background-color: #343a40;
+          color: white;
+
+  }
+
+
+
+  #f1,#f2{
+    width:45%;
+    height: 63%;
+
+      border: 2px solid black;
+
+   margin-left: 1em;
+   margin-top: .5em;
+   margin-bottom: .5em;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 1em;
+   text-align: center;
+   display: inline-block;
+   margin-left: 4%;
+
+  }
+  #f3{
+    width:95%;
+    height:10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+       margin-left: 4%;
+  }
+  footer h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+
+  }
+
+}

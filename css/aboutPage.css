@@ -1,0 +1,516 @@
+
+body{
+  background-image: url('img/background(about).png');
+}
+header{
+   border: 2px solid black;
+     height:29em;
+        margin:.2em;
+        background-color: rgb(0,0,128,1.0);
+
+}
+
+#logo{
+  height:12em;
+  width:10em;
+  border-radius: 50%;
+  margin-left: 2em;
+  margin-top: 10em;
+  display: inline-block;
+
+}
+#logo img{
+  height:15em;
+  width:10em;
+  border: 2px solid black;
+  border-radius: 50%;
+
+}
+
+.navbar-toggler-icon{
+  height:3em;
+  width:3em;
+}
+.navbar-div{
+  height: 5em;
+  border:1px solid black;
+  line-height: 3em;
+
+}
+.navbar-div h5{
+    font-size: 2em;
+}
+
+#heading1{
+  display: inline-block;
+  width: 1em;
+  height: .15em;
+  margin-top: .25em;
+  font-size: 45em;
+
+  float: right;
+  font-family: serif;
+  text-align: center;
+
+}
+
+#heading1 h1{
+  font-size: 12%;
+  font-weight: bolder;
+  color: #f4d35e;
+  text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+}
+
+.about{
+  width:55em;
+  height: auto;
+  text-align: justify;
+  padding: .5em;
+  border:2px solid black;
+  margin-bottom: 3em;
+  background-color: rgb(0,0,128,.9);
+  color: white;
+}
+.about h3{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+}
+
+
+
+.about p{
+  font-family:sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+#about{
+
+ padding-left:  3em;
+ padding-top: 4em;
+ padding-bottom: 4em;
+
+}
+
+footer{
+  border: 2px solid black;
+  height: 50em;
+        margin:.2em;
+         background-color: #343a40;
+         color:white;
+}
+
+
+
+#f1,#f2,#f3{
+  width:90%;
+
+    border: 2px solid black;
+
+ margin-left: 1em;
+ margin-top: .5em;
+ margin-bottom: .5em;
+ float: left;
+ font-family: sans-serif;
+ font-weight: bold;
+ font-size: 2em;
+ text-align: center;
+
+}
+
+footer h3{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+
+
+/* MEDIUM SCREEN VIEW
+@media screen and (min-width:780px)
+{
+
+  body{
+    background-image: url('img/background(about).png');
+  }
+
+    header{
+        border: 2px solid black;
+        height:20em;
+            margin:.2em;
+            background-color: rgb(0,0,128,1.0);
+
+
+
+    }
+
+
+    #logo{
+      height:12em;
+      width:8em;
+      border-radius: 50%;
+      margin-left: 4%;
+      margin-top: 3.5em;
+      display: inline-block;
+      position:absolute;
+      top:0px;
+      left:2%;
+      }
+
+    #heading1 h1{
+      font-size: 11%;
+      font-weight: bolder;
+      color:#f4d35e;
+      text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+
+    }
+    #heading1{
+      display: inline-block;
+      width: 1.3em;
+      height: .19em;
+      margin-top: .19em;
+      font-size: 38em;
+      font-family: serif;
+      text-align: center;
+      margin-right: .02em;
+      margin-left: 17%;
+    }
+
+
+      h3:hover {
+         text-shadow: 2px 2px #FF0000;
+      }
+
+    #logo img{
+      height:15em;
+      width:10em;
+      border: 2px solid black;
+      border-radius: 50%;
+    }
+
+
+    .fixed-top{
+      width:83.1em;
+      margin-left: .2em;
+      margin-right: 1em;
+    }
+    .navbar-div h5{
+        font-size: 3em;
+    }
+
+    header a{
+      color:white;
+    }
+
+
+
+    section{
+      border: 2px solid black;
+        height:40em;
+           margin:.2em;
+  }
+  #Philosophy{
+    height:27vh;
+      margin:.2em;
+     background-color: transparent;
+      background-color: rgb(0,0,128,.9);
+      margin-left: 4%;
+}
+#Philosophy h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+#Philosophy p{
+    font-family:sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+    text-align:center;
+  }
+
+  #intro{
+    width:43%;
+    height: 31.4em;
+    text-align: justify;
+    padding: .5em;
+    display: inline-block;
+    margin-left: 4%;
+    float: left;
+        }
+
+      #vision{
+          width: 43%;
+          height:auto;
+          text-align: justify;
+          padding: .5em;
+          display: inline-block;
+            margin-left: 4%;
+          }
+#intro p{
+    font-family:sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  #vision p{
+    font-family:sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+  }
+  #intro h3,#vision h3{
+     font-size: 2rem;
+  }
+
+    footer{
+      border: 2px solid black;
+      height: 50vh;
+            margin:.2em;
+            margin-top: 2%;
+
+    }
+
+
+
+    #f1,#f2{
+      width:45%;
+      height: 60%;
+
+        border: 2px solid black;
+
+     margin-left: 1em;
+     margin-top: .5em;
+     margin-bottom: .5em;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 1em;
+     text-align: center;
+     display: inline-block;
+     margin-left: 4%;
+
+    }
+    #f3{
+      width:95%;
+      height:10%;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 1em;
+      text-align: center;
+         margin-left: 4%;
+    }
+    footer h3{
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 2em;
+
+    }
+
+
+}*/
+
+/* LARGE SCREEN VIEW*/
+
+@media screen and (min-width:1200px)
+{
+body{
+  background-image: url('img/background(about).png');
+}
+  header{
+      border: 2px solid black;
+      height:20em;
+          margin:.2em;
+          background-color: rgb(0,0,128,1.0);
+
+
+
+  }
+
+  #logo{
+    height:12em;
+    width:8em;
+    border-radius: 50%;
+    margin-left: 4%;
+    margin-top: 3.5em;
+    display: inline-block;
+
+  }
+  #logo img{
+    height:15em;
+    width:10em;
+    border: 2px solid black;
+    border-radius: 50%;
+
+  }
+
+  .fixed-top{
+    width:83.1em;
+    margin-left: .2em;
+    margin-right: 1em;
+  }
+  .navbar-div h5{
+      font-size: 3em;
+  }
+
+  #heading1{
+    display: inline-block;
+    width: 1.3em;
+    height: .15em;
+    margin-top: .15em;
+    font-size: 45em;
+
+
+    font-family: serif;
+    text-align: center;
+    margin-right: .08em;
+
+  }
+
+  #heading1 h1{
+    font-size: 11%;
+    font-weight: bolder;
+    color:#f4d35e;
+    text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+  }
+
+  h3:hover {
+     text-shadow: 2px 2px #FF0000;
+  }
+  .about{
+    width:90%;
+    height: auto;
+    text-align: justify;
+    padding: .5em;
+    border:2px solid black;
+    margin-bottom: 3em;
+    background-color: rgb(0,0,128,.9);
+    color: white;
+  }
+  .about h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+
+
+  .about p{
+    font-family:sans-serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+  }
+
+
+#Philosophy{
+  margin-left: 3%;
+  height:400px;
+  position:absolute;
+  top:895px;
+
+}
+#intro,#vision{
+  width: 35%;
+  height: auto;
+  display: inline-block;
+
+}
+#intro{
+  width:40%;
+  height:84%;
+  float: left;
+    margin-left: 1.5%;
+
+    position:absolute;
+    top:350px;
+    left:2%;
+
+    animation: driveright 2.5s;
+    animation-delay:.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-direction: normal;
+    animation-fill-mode:both;
+}
+@keyframes driveright{
+  0%{left:-500px ;}
+      50%{left:120px ;}
+          100%{left:50px ;}
+}
+#vision{
+  width:41.5%;
+    margin-left: 5%;
+
+    position:absolute;
+    top:350px;
+  right:0px;
+
+    animation: driveleft 2.5s;
+    animation-delay:.5s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-out;
+    animation-direction: normal;
+    animation-fill-mode:both;
+
+  }
+  @keyframes driveleft{
+    0%{right:-500px ;}
+        50%{right:120px ;}
+            100%{right:50px ;}
+}
+#about{
+height:990px;
+ padding-left:  3em;
+ padding-top: 4em;
+ padding-bottom: 4em;
+
+}
+
+  footer{
+    border: 2px solid black;
+    height: 50vh;
+          margin:.2em;
+          margin-top: 2%;
+              background-color: #343a40;
+              color: white;
+          position:absolute;
+          top:1289px;
+
+  }
+
+
+
+  #f1,#f2{
+    width:45%;
+    height: 62%;
+
+      border: 2px solid black;
+
+   margin-left: 1em;
+   margin-top: .5em;
+   margin-bottom: .5em;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 1em;
+   text-align: center;
+   display: inline-block;
+   margin-left: 4%;
+
+  }
+  #f3{
+    width:95%;
+    height:10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+       margin-left: 4%;
+  }
+  footer h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+
+  }
+
+}

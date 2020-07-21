@@ -1,0 +1,430 @@
+header{
+   border: 2px solid black;
+    height:29em;
+        margin:.2em;
+        background-color: rgb(0,0,128,1.0);
+
+}
+
+#logo{
+  height:12em;
+  width:10em;
+  border-radius: 50%;
+  margin-left: 2em;
+  margin-top: 10em;
+  display: inline-block;
+
+}
+#logo img{
+  height:15em;
+  width:10em;
+  border: 2px solid black;
+  border-radius: 50%;
+
+}
+
+.navbar-toggler-icon{
+  height:3em;
+  width:3em;
+}
+.navbar-div{
+  height: 5em;
+  border:1px solid black;
+  line-height: 3em;
+
+}
+.navbar-div h5{
+    font-size: 2em;
+}
+
+#heading1{
+  display: inline-block;
+  width: 1em;
+  height: .15em;
+  margin-top: .25em;
+  font-size: 45em;
+
+  float: right;
+  font-family: serif;
+  text-align: center;
+
+}
+
+#heading1 h1{
+  font-size: 12%;
+  font-weight: bolder;
+  color: #f4d35e;
+  text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+}
+
+
+  #gallery{
+    width:100%;
+    height:40em;
+    background-image: url('img/background(gallery).png');
+    padding-top: 6em;
+    padding-left: 12em;
+  }
+
+
+.carousel-item{
+  width:44em;
+  height:27em;
+  border:2px solid black;
+}
+.carousel-inner{
+  width:44em;
+  height:33em;
+  background-color: yellow;
+}
+
+.carousel-indicators{
+  margin-right: 28%;
+}
+.carousel-control-prev{
+    width:4em;
+    height:5em;
+      margin-top: 14em;
+    background-color: black;
+}
+.carousel-control-next{
+  margin-right: 5em;
+  margin-top: 14em;
+  width:4em;
+  height:5em;
+  background-color: black;
+}
+
+#g2{
+  width:100%;
+  height:22em;
+  background-image: url('img/background(gallery2).png');
+  margin-top: -38px;
+}
+
+footer{
+  border: 2px solid black;
+  height: 50em;
+        margin:.2em;
+        background-color: #343a40;
+        color: white;
+
+}
+
+
+
+#f1,#f2,#f3{
+  width:90%;
+
+    border: 2px solid black;
+
+ margin-left: 1em;
+ margin-top: .5em;
+ margin-bottom: .5em;
+ float: left;
+ font-family: sans-serif;
+ font-weight: bold;
+ font-size: 2em;
+ text-align: center;
+
+}
+footer h3{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+
+
+/* MEDIUM SCREEN VIEW
+@media screen and (min-width:950px)
+{
+
+
+    header{
+        border: 2px solid black;
+        height:20em;
+            margin:.2em;
+            background-color: rgb(0,0,128,1.0);
+
+
+
+    }
+
+
+    #logo{
+      height:12em;
+      width:8em;
+      border-radius: 50%;
+      margin-left: 4%;
+      margin-top: 3.5em;
+      display: inline-block;
+      position:absolute;
+      top:0px;
+      left:2%;
+
+
+
+    }
+
+    #heading1 h1{
+      font-size: 11%;
+      font-weight: bolder;
+      color:#f4d35e;
+      text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+
+
+    }
+
+
+      h3:hover {
+         text-shadow: 2px 2px #FF0000;
+      }
+
+
+    #logo img{
+      height:15em;
+      width:10em;
+      border: 2px solid black;
+      border-radius: 50%;
+    }
+
+
+    .fixed-top{
+      width:83.1em;
+      margin-left: .2em;
+      margin-right: 1em;
+    }
+    .navbar-div h5{
+        font-size: 3em;
+    }
+
+    header a{
+      color:white;
+    }
+
+    #heading1{
+      display: inline-block;
+      width: 1.3em;
+      height: .19em;
+      margin-top: .19em;
+      font-size: 38em;
+      font-family: serif;
+      text-align: center;
+      margin-right: .02em;
+      margin-left: 17%;
+
+    }
+
+
+    footer{
+      border: 2px solid black;
+      height: 50vh;
+            margin:.2em;
+            margin-top: 2%;
+
+           position: absolute;
+           top:100%;
+
+    }
+
+
+
+    #f1,#f2{
+      width:45%;
+      height: 60%;
+
+        border: 2px solid black;
+
+     margin-left: 1em;
+     margin-top: .5em;
+     margin-bottom: .5em;
+     font-family: sans-serif;
+     font-weight: bold;
+     font-size: 1em;
+     text-align: center;
+     display: inline-block;
+     margin-left: 4%;
+
+    }
+    #f3{
+      width:95%;
+      height:10%;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 1em;
+      text-align: center;
+         margin-left: 4%;
+    }
+    footer h3{
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 2em;
+
+
+    }
+
+
+}
+
+*/
+
+/* LARGE SCREEN VIEW*/
+
+@media screen and (min-width:1200px)
+{
+
+  header{
+      border: 2px solid black;
+      height:20em;
+          margin:.2em;
+          background-color: rgb(0,0,128,1.0);
+
+
+
+  }
+
+  #logo{
+    height:12em;
+    width:8em;
+    border-radius: 50%;
+    margin-left: 4%;
+    margin-top: 3.5em;
+    display: inline-block;
+
+  }
+  #logo img{
+    height:15em;
+    width:10em;
+    border: 2px solid black;
+    border-radius: 50%;
+
+  }
+
+
+  .fixed-top{
+    width:83.1em;
+    margin-left: .2em;
+    margin-right: 1em;
+  }
+  .navbar-div h5{
+      font-size: 3em;
+  }
+
+  header a{
+    color:white;
+  }
+
+  #heading1{
+    display: inline-block;
+    width: 1.3em;
+    height: .15em;
+    margin-top: .15em;
+    font-size: 45em;
+
+
+    font-family: serif;
+    text-align: center;
+    margin-right: .08em;
+
+  }
+
+  #heading1 h1{
+    font-size: 11%;
+    font-weight: bolder;
+    color:#f4d35e;
+    text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0,0,0,0.15);
+  }
+
+  #gallery{
+    width:100%;
+    height:40em;
+    background-image: url('img/background2(gallery).png');
+    padding-top: 10em;
+    padding-left: 25em;
+  }
+
+
+  .carousel-item{
+  width:35em;
+  height:27em;
+  border:2px solid black;
+  }
+  .carousel-inner{
+  width:35em;
+  height:20em;
+  background-color: yellow;
+  }
+
+  .carousel-indicators{
+  margin-right: 65%;
+  }
+  .carousel-control-prev{
+    width:3em;
+    height:4em;
+      margin-top: 9em;
+    background-color: black;
+  }
+  .carousel-control-next{
+  margin-right: 23.5em;
+  margin-top: 9em;
+  width:3em;
+  height:4em;
+  background-color: black;
+  }
+
+  #g2{
+  width:100%;
+  height:10em;
+ background-image: url('img/background2(gallery2).png');
+  margin-top: -18px;
+  }
+
+
+
+  footer{
+    border: 2px solid black;
+    height: 50vh;
+          margin:.2em;
+          top:1030px;
+          background-color: #343a40;
+          color: white;
+
+  }
+
+
+
+  #f1,#f2{
+    width:45%;
+    height: 60%;
+
+      border: 2px solid black;
+
+   margin-left: 1em;
+   margin-top: .5em;
+   margin-bottom: .5em;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 1em;
+   text-align: center;
+   display: inline-block;
+   margin-left: 4%;
+
+  }
+  #f3{
+    width:95%;
+    height:10%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+       margin-left: 4%;
+  }
+  footer h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+
+  }
+
+}

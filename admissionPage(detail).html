@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height" />
+    <title>Admission (Details)</title>
+
+    <!-- CSS only-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/admissionPage(details).css">
+    <link rel="shortcut icon" type="image/jpg" href="favicon-32x32.png"/>
+
+    <!--LINKS FOR JQUERY-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <script src="jQuery.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <div id="logo">
+          <img src="css/img/logo.jpg" alt="Logo Of The School">
+
+      </div>
+  <div id="heading1">
+      <h1>Shri S.N.M. Public School</h1>
+  </div>
+
+
+
+  <!-- NAVIGATION BAR FROM BOOTSTRAP -->
+  <div class = "container">
+  <div class="row">
+  <div class="col-lg-12">
+    <!-- FOR SMALL SCREEN-->
+      <div class="hidden-lg-up = d-lg-none ">
+        <div class="fixed-top">
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+            <div class="navbar-div">
+                 <a class="nav-link " href="index.html"> <h5 class="text-white h4">Home</h5></a>
+            </div>
+            <div class="navbar-div">
+               <a class="nav-link" href="aboutPage.html"> <h5 class="text-white h4">About</h5></a>
+            </div>
+             <div class="navbar-div">
+                <a class="nav-link active" href="admissionPage(detail).html">  <h5 class="text-white h4">Admission</h5></a>
+             </div>
+              <div class="navbar-div">
+                 <a class="nav-link" href="galleryPage.html">   <h5 class="text-white h4">Gallery</h5></a>
+              </div>
+            <!--  <span class="text-muted">Toggleable via the navbar brand.</span>-->
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+        </div>
+
+      </div>
+
+      <!-- FOR LARGE SCREEN-->
+     <div class="hidden-md-down (hidden-md hidden-sm hidden-xs) = d-none d-lg-block">
+         <div class="fixed-top">
+       <nav class="navbar navbar-dark bg-dark">
+    <!-- Navbar content -->
+    <ul class="nav nav-pills nav-fill">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="aboutPage.html">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="admissionPage(detail).html">Admission</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="galleryPage.html">Gallery</a>
+    </li>
+    <!--<li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>-->
+  </ul>
+  </nav>
+
+  </div>
+
+
+      </div>
+  </div>
+  </div>
+  </div>
+
+
+    </header>
+
+    <div id="secondarynav">
+      <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="admissionPage(detail).html">Admission Details</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="admissionPage(form).html">Admission Form</a>
+  </li>
+<!--  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>-->
+</ul>
+
+    </div>
+
+    <table>
+      <tr><th>Class</th>
+        <th>Admission Fee</th>
+        <th>Tuition Fee</th>
+       <th>Computer Fee</th>
+      </tr>
+      <tr>
+        <td>Play Group</td>
+        <td>Rs. 1700</td>
+        <td>Rs. 500</td>
+        <td>--</td>
+      </tr>
+      <tr>
+        <td>Nursery</td>
+        <td>Rs. 3500</td>
+        <td>Rs. 550</td>
+        <td>--</td>
+      </tr>
+      <tr>
+        <td>LKG</td>
+        <td>Rs. 3500</td>
+        <td>Rs. 550</td>
+        <td>--</td>
+      </tr>
+      <tr>
+        <td>UKG</td>
+        <td>Rs. 3500</td>
+        <td>Rs. 600</td>
+        <td>--</td>
+      </tr>
+      <tr>
+        <td>Class 1<sup>st</sup> </td>
+        <td>Rs. 3500</td>
+        <td>Rs. 700</td>
+        <td>Rs. 100</td>
+      </tr>
+      <tr>
+        <td>Class 2<sup>nd</sup></td>
+        <td>Rs. 3500</td>
+        <td>Rs. 700</td>
+        <td>Rs. 100</td>
+      </tr>
+      <tr>
+        <td>Class 3<sup>rd</sup></td>
+        <td>Rs. 3500</td>
+        <td>Rs. 750</td>
+        <td>Rs. 150</td>
+      </tr>
+      <tr>
+        <td>Class 4<sup>th</sup></td>
+        <td>Rs. 3500</td>
+        <td>Rs. 750</td>
+        <td>Rs. 150</td>
+      </tr>
+      <tr>
+        <td>Class 5<sup>th</sup></td>
+        <td>Rs. 3500</td>
+        <td>Rs. 800</td>
+        <td>Rs. 150</td>
+      </tr>
+    </table>
+
+
+
+           <footer>
+             <div id="f1">
+               <h3>Contact Us</h3>
+               <p>For Admissions and franchise enquiry:<br>
+​                   Contact Details <br>
+          <i class="fa fa-phone" ></i> 8057563091 <br>
+          <i class="fa fa-phone" ></i> 9084574988 <br>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <a href="mailto:dobhalyashoda123sep@gmail.com?subject=reaching%20out" target="_blank">dobhalyashoda123sep@gmail.com</a>
+         </p>
+
+             </div>
+             <div id="f2">
+                 <h3>Reach Us</h3>
+                 <p>Shri S.N. Memorial Public School
+Upper Bhaktiyana Near Tehsil,
+​Lane no. 3 , Ward no. 9 ,
+Srinagar Garhwal
+Dist. Pauri Garhwal
+Pin Code: 246174
+​Uttarakhand
+</p>
+             </div>
+             <div id="f3">
+               <p><i class="fa fa-copyright" aria-hidden="true"></i>This site has been built by SHRISTI DOBHAL</p>
+             </div>
+           </footer>
+
+  </body>
+</html>
